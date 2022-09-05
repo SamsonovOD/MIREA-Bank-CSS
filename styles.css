@@ -1,0 +1,276 @@
+﻿
+	body {
+		font-family: "GothamPro", Arial, sans-serif;
+	}
+	.pagetop {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("bkg.png");
+		background-size: cover;
+		position: relative;
+	}
+	.photo {
+		position: absolute;
+		right: 0;
+		top: 20%;
+	}
+	.photo img {
+	}
+	.pagetop-content {
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
+	}
+	.topnav {
+		width: 100%;
+		display: table;
+		table-layout: fixed;
+		box-sizing: border-box;
+	}
+	.topnav-content{
+		display: table-cell;
+		vertical-align: middle;
+		padding: 6px;
+	}
+	.dropbtn {
+		text-transform: uppercase;
+		font-size: 12px;
+		font-weight: 900;
+		border: none;
+		background: rgba(0, 0, 0, 0);
+	}
+	.dropdown {
+		display: inline-block;
+		position: relative;
+	}
+	.dropdown-content {
+		display: none;
+		position: absolute;
+	}
+	.dropdown a {
+		text-decoration: none;
+		color: white;
+	}
+	.dropdown-content a {
+		text-decoration: none;
+		color: white;
+		padding: 12px;
+		display: block;
+	}
+	.dropdown:hover .dropdown-content {
+		display: block;
+		background: rgba(0, 0, 0, 0.7);
+	}
+	.dropdown a:hover {
+		color: yellow;
+	}
+	.contact {
+		font-weight: bold;
+		color: yellow;
+	}
+	.contact a {
+		font-weight: bold;
+		text-decoration: none;
+		color: yellow;
+	}
+	.contact a:hover {
+		color: white;
+	}
+	.logo {
+		width: 100%;
+		display: table;
+		table-layout: fixed;
+		padding: 12px;
+		box-sizing: border-box;
+	}
+	.top-text {
+		width: 100%;
+		display: table;
+		table-layout: fixed;
+		box-sizing: border-box;
+	}
+	.top-left {
+		display: table-cell;
+		vertical-align: middle;
+		padding: 10px;
+	}
+	.top-left h1 {
+		color: white;
+		font-weight: 100;
+		font-size: 52px;
+	}
+	.top-left p {
+		color: yellow;
+	}
+	.bold {
+		font-weight: bold;
+	}
+	.top-right {
+		display: table-cell;
+		color: white;
+		line-height: 2;
+		vertical-align: middle;
+		padding: 10px;
+	}
+	.top-extra {
+		width: 100%;
+		padding: 20px;
+		display: table;
+		table-layout: fixed;
+		box-sizing: border-box;
+	}
+	.top-extra-left {
+		display: table-cell;
+		vertical-align: middle;
+		padding: 10px;
+		border-left: 2px solid white;
+	}
+	.top-extra-left a {
+		text-decoration: none;
+		color: white;
+	}
+	.top-extra-right {
+		display: table-cell;
+		vertical-align: middle;
+		padding: 10px;
+		border-left: 2px solid yellow;
+	}
+	.top-extra-right-top a {
+		text-decoration: none;
+		color: yellow;
+	}
+	.top-extra-right-bottom a {
+		text-decoration: none;
+		color: white;
+	}
+	.pagebottom {
+		background-color: white;
+	}
+	.pagebottom-content {
+		display: table;
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
+	}
+	.bottom-left {
+		display: table-cell;
+		width: 60%;
+	}
+	.bottom-left-head {
+		position: relative;
+	}
+	.bottom-left-title {
+	    font-size: 90px;
+		font-weight: 900;
+		color: rgba(196, 196, 196, 0.6);
+		padding: 5px;
+		margin: 5px;
+	}
+	.bottom-left-text {
+	    font-size: 28px;
+		position: absolute;
+		bottom: 25px;
+		left: 30px;
+	}
+	.table {
+		display: block;
+	}
+	.row {
+		display: table;
+		width: 100%;
+		padding: 14px;
+		box-sizing: border-box;
+	    border-bottom: 2px solid gray;
+	}
+	.element1 {
+		display: table-cell;
+		width: 50%;
+		table-layout: fixed;
+		box-sizing: border-box;
+	}
+	.element2 {
+		display: table-cell;
+		width: 25%;
+		table-layout: fixed;
+		box-sizing: border-box;
+	}
+	.element3 {
+		display: table-cell;
+		width: 25%;
+		table-layout: fixed;
+		box-sizing: border-box;
+	}
+	.percent {
+		display:inline;
+	    font-size: 24px;
+		font-weight: bold;
+	}
+	.bottom-right {
+		display: table-cell;
+		max-width: 100% !important;
+	}
+	.form {
+		display: block;
+		margin: 5%;
+		padding: 8px;
+	}
+	.form-head {
+		display: table;
+		width: 100%;
+		margin: 0px;
+		padding: 14px;
+		background: yellow;
+		font-weight: bold;
+		box-sizing: border-box;
+	}
+	.form-row {
+		display: table;
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		background: Gainsboro;
+		box-sizing: border-box;
+	}
+	.form-row-extra {
+		display: table;
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		background: Gainsboro;
+		box-sizing: border-box;
+	}
+	.form-button {
+		display: inline-block;
+		background-color: black;
+		padding: 14px;
+		margin: 14px;
+		width: 200px;
+		border: none;
+		color: white;
+		cursor: pointer;
+		font-weight: bold;
+		box-sizing: border-box;
+	}
+	input[type=text], select {
+		display: inline-block;
+		background: rgba(0, 0, 0, 0);
+		width: 90%;
+		padding: 12px;
+		margin: 16px;
+		border-bottom: 2px solid gray;
+		box-sizing: border-box;
+	}
+	.form-row-extra input[type=text], select {
+		display: inline-block;
+		background: rgba(0, 0, 0, 0);
+		height: 100px;
+		width: 90%;
+		padding: 12px;
+		margin: 16px;
+		border-bottom: 2px solid gray
+	}
+	.call {
+		z-index: 1;
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+		cursor: pointer;
+	}
